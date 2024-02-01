@@ -16,6 +16,19 @@ body.fh5co-overflow {
   overflow-x: auto;
 }
 
+.video-container {
+  padding-bottom: 100px; /* Atur margin bawah sesuai kebutuhan */
+  width: 50%;
+}
+
+.video-container {
+  
+  height: auto;
+  margin: 0 auto; /* Membuat video berada di tengah secara horizontal */
+  display: block; 
+}
+
+
 a {
   color: #fb6e14;
   -webkit-transition: 0.5s;
@@ -819,7 +832,7 @@ p {
   padding-left: 80px;
 }
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
-  background: url(../images/0302-steak.png) no-repeat;
+  background: url(../images/icons8-meatballs-60.png) no-repeat;
   content: "";
   position: absolute;
   top: 0;
